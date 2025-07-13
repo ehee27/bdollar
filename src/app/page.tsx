@@ -1,3 +1,4 @@
+import Content from "./components/Content";
 import Hero from "./components/Hero";
 
 export default function Home() {
@@ -5,9 +6,10 @@ export default function Home() {
     // <div className="flex flex-col items-center justify-items-center min-h-screen border-2 border-red-400">
     // Lower bubble
     // <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#ffff_40%,#177312_100%)]">
-    <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_30%_10%,#1b1b1b_30%,#177312_100%)]">
-      <main className="flex flex-col w-[100%] border-2 border-blue-500 p-2">
+    <div className="absolute inset-0 -z-10 h-full items-center px-5 py-24 [background:radial-gradient(125%_100%_at_30%_10%,#0160cc_30%,#076d1a_80%)]">
+      <main className="flex flex-col w-[100%] p-2">
         <Hero />
+        <Content />
       </main>
     </div>
   );

@@ -13,7 +13,7 @@ import { BorderBeam } from "@/components/magicui/border-beam";
 
 const Subscribe = () => {
   return (
-    <Card className="relative w-[60%] overflow-hidden mt-5">
+    <Card className="relative w-[100%] overflow-hidden">
       <CardContent>
         <form>
           {/* <div className="grid w-full items-center gap-2"> */}
